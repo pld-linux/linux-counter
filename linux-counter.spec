@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	The Linux Counter Client Script
+Summary(pl):	Skrypt kliencki serwisu Linux Counter
 Name:		linux-counter
 Version:	0.25
 Release:	0.2
@@ -13,9 +14,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package script that can be run on a Linux box to ease the task of
-registering with the Linux Counter, and of keeping a registration up
-to date.
+This package contains a script that can be run on a Linux box to ease
+the task of registering with the Linux Counter, and of keeping a
+registration up to date.
+
+%description -l pl
+Ten pakiet zawiera skrypt, który mo¿na uruchomiæ na maszynie z
+Linuksem, aby u³atwiæ proces rejestracji w serwisie Linux Counter oraz
+uaktualnianie rejestracji.
 
 %prep
 %setup -qcT
