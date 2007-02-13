@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	The Linux Counter Client Script
-Summary(pl.UTF-8):   Skrypt kliencki serwisu Linux Counter
+Summary(pl.UTF-8):	Skrypt kliencki serwisu Linux Counter
 Name:		linux-counter
 Version:	0.25
 Release:	0.2
